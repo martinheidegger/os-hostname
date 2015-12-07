@@ -1,0 +1,33 @@
+{
+  "name": "os-hostname",
+  "version": "1.0.0",
+  "description": "Platform aware tool to get the current hostname using environment variables and falls back to the system command hostname.",
+  "main": "os-hostname.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "standard && tap test/*.js"
+  },
+  "keywords": [
+    "os",
+    "environment",
+    "env",
+    "hostname"
+  ],
+  "author": "Martin Heidegger <martin.heidegger@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:martinheidegger/os-hostname.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martinheidegger/os-hostname/issues"
+  },
+  "homepage": "https://github.com/martinheidegger/os-hostname",
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "tap": "^2.3.1"
+  },
+  "dependencies": {
+    "exec-fallback": "^1.0.2"
+  }
+}
