@@ -1,6 +1,6 @@
 {
   "name": "os-hostname",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Platform aware tool to get the current hostname using environment variables and falls back to the system command hostname.",
   "main": "os-hostname.js",
   "scripts": {
