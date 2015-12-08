@@ -3,7 +3,7 @@
 var isWindows = process.platform === 'win32'
 var method
 
-module.exports = function (cb) {
+function osHostname (cb) {
   if (!method) {
     method = require('exec-fallback')(function () {
       return isWindows ? process.env.COMPUTERNAME : process.env.HOSTNAME
@@ -11,3 +11,8 @@ module.exports = function (cb) {
   }
   method(cb)
 }
+osHostname.invalidate = function () {
+  if (method) method.invalidate()
+}
+
+module.exports = osHostname
