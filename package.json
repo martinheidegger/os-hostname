@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/martinheidegger/os-hostname",
   "devDependencies": {
-    "standard": "^5.4.1",
+    "standard": "^6.0.3",
     "tap": "^5.0.0"
   },
   "dependencies": {
