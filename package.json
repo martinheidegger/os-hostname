@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/martinheidegger/os-hostname",
   "devDependencies": {
-    "standard": "^5.4.1",
-    "tap": "^5.0.0"
+    "standard": "^6.0.4",
+    "tap": "^5.4.3"
   },
   "dependencies": {
-    "exec-fallback": "^1.2.0"
+    "exec-fallback": "^1.2.2"
   }
 }
